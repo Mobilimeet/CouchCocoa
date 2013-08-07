@@ -390,7 +390,7 @@ NSString *URLEncodeRelativePath(NSString *path) {
 	CFStringRef escapedPath = CFURLCreateStringByAddingPercentEscapes(NULL,
 	                                                                  (CFStringRef)path,
 	                                                                  NULL,
-                                                                      (CFStringRef)@"/",
+                                                                      (CFStringRef)@"/:",
 	                                                                  kCFStringEncodingUTF8);
     
 
